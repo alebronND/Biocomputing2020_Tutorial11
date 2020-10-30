@@ -15,7 +15,7 @@ dir=function(x,y,z){
         append("all_values","coefficient")}
       else if (decision=="no") {
         print ("Please start again when ready")
-        stop
+        break ()
       }}
       else {
         # z will be the number of the column
